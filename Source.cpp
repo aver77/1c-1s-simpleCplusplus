@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> //1 лаба на треугольники
 #include <math.h>
 #include <cmath>
 
