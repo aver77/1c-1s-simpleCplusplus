@@ -11,9 +11,9 @@ int main() {
 		int countgiven;
 
 		do {		
-				cout << "Ââåäèòå 1 äëÿ ñóììû çàäàííîãî ÷èñëà ñëîãàåìûõ" << endl;
-				cout << "Ââåäèòå 2 äëÿ ñóììû ñ çàäàííîé òî÷íîñòüþ" << endl;
-				cout << "Ââåäèòå 3 äëÿ çàâåðøåíèÿ ðàáîòû" << endl;
+				cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ 1 Ð´Ð»Ñ ÑÑƒÐ¼Ð¼Ñ‹ Ð·Ð°Ð´Ð°Ð½Ð½Ð¾Ð³Ð¾ Ñ‡Ð¸ÑÐ»Ð° ÑÐ»Ð¾Ð³Ð°ÐµÐ¼Ñ‹Ñ…" << endl;
+				cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ 2 Ð´Ð»Ñ ÑÑƒÐ¼Ð¼Ñ‹ Ñ Ð·Ð°Ð´Ð°Ð½Ð½Ð¾Ð¹ Ñ‚Ð¾Ñ‡Ð½Ð¾ÑÑ‚ÑŒÑŽ" << endl;
+				cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ 3 Ð´Ð»Ñ Ð·Ð°Ð²ÐµÑ€ÑˆÐµÐ½Ð¸Ñ Ñ€Ð°Ð±Ð¾Ñ‚Ñ‹" << endl;
 
 		bool error;
 
@@ -23,7 +23,7 @@ int main() {
 
 				if (countgiven < 1 || countgiven >3)
 				{
-					cout << "Ââåäèòå çíà÷åíèå îò 1 äî 3" << endl;
+					cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð¾Ñ‚ 1 Ð´Ð¾ 3" << endl;
 					error = true;
 				}
 				else
@@ -35,7 +35,7 @@ int main() {
 
 			if (countgiven != 3) {
 
-				cout << "Ââåäèòå çíà÷åíèå àðãóìåíòà x:" << endl;
+				cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð°Ñ€Ð³ÑƒÐ¼ÐµÐ½Ñ‚Ð° x:" << endl;
 				float x;
 				cin >> x;
 				cout << endl;
@@ -43,7 +43,7 @@ int main() {
 
 				if (countgiven == 1) {
 
-					cout << "Ââåäèòå êîëè÷åñòâî ñëîãàåìûõ n:" << endl;
+					cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÐ»Ð¾Ð³Ð°ÐµÐ¼Ñ‹Ñ… n:" << endl;
 					int n;
 					cin >> n;
 					double a = 1;
@@ -55,13 +55,13 @@ int main() {
 						a *= -x*x / ((2 * i + 1) * (2 * i + 2));
 					}
 
-					cout << setw(25) << left << "Ïðèáëèæåííîå çíà÷åíèå" << setprecision(20) << result << endl;
-					cout << setw(25) << left << "Òî÷íîå çíà÷åíèå" << setprecision(20) << cos(x) << endl;
+					cout << setw(25) << left << "ÐŸÑ€Ð¸Ð±Ð»Ð¸Ð¶ÐµÐ½Ð½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ" << setprecision(20) << result << endl;
+					cout << setw(25) << left << "Ð¢Ð¾Ñ‡Ð½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ" << setprecision(20) << cos(x) << endl;
 				}
 				else
 				{
 						double e;
-						cout << "Ââåäèòå òî÷íîñòü e:" << endl;
+						cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚Ð¾Ñ‡Ð½Ð¾ÑÑ‚ÑŒ e:" << endl;
 						cin >> e;
 						cout << endl;
 
@@ -76,15 +76,15 @@ int main() {
 								a *= -x*x / ((2 * i + 1) * (2 * i + 2));
 								i++;
 							}
-							cout << "Òî÷íîñòü E= " << e << endl;
-							cout << setw(25) << left << "Ïðèáëèæåííîå çíà÷åíèå" << setprecision(20) << result << endl;
-							cout << setw(25) << left << "Òî÷íîå çíà÷åíèå" << setprecision(20) << cos(x) << endl;
-							cout << "Êîëè÷åñòâî ñëîãàåìûõ: " << i << endl;
+							cout << "Ð¢Ð¾Ñ‡Ð½Ð¾ÑÑ‚ÑŒ E= " << e << endl;
+							cout << setw(25) << left << "ÐŸÑ€Ð¸Ð±Ð»Ð¸Ð¶ÐµÐ½Ð½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ" << setprecision(20) << result << endl;
+							cout << setw(25) << left << "Ð¢Ð¾Ñ‡Ð½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ" << setprecision(20) << cos(x) << endl;
+							cout << "ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÐ»Ð¾Ð³Ð°ÐµÐ¼Ñ‹Ñ…: " << i << endl;
 							e /= 10;
 						}
 				}
 
-				cout << "Çàâåðøèòü ðàáîòó? (Y/N)" << endl;
+				cout << "Ð—Ð°Ð²ÐµÑ€ÑˆÐ¸Ñ‚ÑŒ Ñ€Ð°Ð±Ð¾Ñ‚Ñƒ? (Y/N)" << endl;
 				char exit;
 				cin >> exit;
 				if (exit == 'Y' || exit == 'y')
