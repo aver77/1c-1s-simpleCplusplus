@@ -1,1 +1,1 @@
-# 1c-1s (simple C++ trainings)
+# 1c-1s
