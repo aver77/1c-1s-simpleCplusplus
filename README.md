@@ -1,1 +1,1 @@
-# 1course-1sem
+# 1c-1s (simple C++ trainings)
